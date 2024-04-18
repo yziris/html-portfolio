@@ -1,20 +1,44 @@
-
 <!DOCTYPE html>
-<html lang="EN">
-  <head>
+<html lang="en">
 
-    <meta charset="UTF-8"
-    <title>Motivation Poster</title>
-    <link rel="stylesheet" href="style.css"/>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Caveat:wght@400..700&family=Hind+Vadodara:wght@300;400;500;600;700&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
-  </head>
-  <body>
-    <div class="poster">
-      <img class="motivation-img" src="../assets/images/daenerys.jpeg" alt="daenerys with egg"/>
-      <h1>That Special Moment</h1>
-      <p>When you find the perfect avocado at the supermarket</p>
-    </div>
-  </body>
+<head>
+  <meta charset="UTF-8">
+  <title>Motivation Meme</title>
+  <link rel="stylesheet" href="./solution.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <div class="poster">
+    <img class="motivation-img" src="./assets/images/daenerys.jpeg" src="daenerys with egg" />
+    <h1>That Special Moment</h1>
+    <p>When you find the perfect avocado at the supermarket</p>
+  </div>
+</body>
+
 </html>
+
+body {
+  background-color: black;
+}
+h1 {
+  text-transform: uppercase;
+  font-size: 3rem;
+}
+
+.poster {
+  width: 50%;
+  margin-left: 25%;
+  margin-top: 100px;
+  color: white;
+  font-family: "Libre Baskerville", serif;
+  text-align: center;
+}
+
+.motivation-img {
+  border: 5px solid white;
+  width: 100%;
+}
